@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/360VideoTour.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/CatinaScene.unity
+    guid: 6a143faa027fc354aa15509a25668fc0
+  - enabled: 1
+    path: Assets/Scenes/CubeScene.unity
+    guid: 6d373fb3556c5d14c9af1629a67cb735
+  - enabled: 1
+    path: Assets/Scenes/MezzanineScene.unity
+    guid: 29b227b4e0ef63b44a3d60081fe20ebc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 48032624092dd024997c074024fcf9f5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a016fd4d75a3e542bfe5c1d4460030b, type: 2}
