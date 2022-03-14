@@ -1,4 +1,5 @@
 # 0x0A-unity-360_video_tour
+![alt text](https://raw.githubusercontent.com/szbrooks2017/0x0A-unity-360_video_tour/main/Assets/Images/room_snapshot.jpg)
  Introduction to 360 video using the xr plugin sdk. A guided tour of the old Holberton campus in San Francisco.
  
  ## How to install for Oculus
@@ -22,6 +23,5 @@
 - Learning about spatial relation to the camera to place canvases was difficult at first.
 
 ## Developer
-Stratton Brooks 
-I'm an XR developer based in Tulsa, OK. I'm Native American. I specialize in Unity and WebXR.
+I'm Stratton Brooks, an XR developer based in Tulsa, OK. I'm Native American. I specialize in Unity and WebXR.
 [Linkedin](https://www.linkedin.com/in/stratton-brooks/)
