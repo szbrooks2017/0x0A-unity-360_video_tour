@@ -1,6 +1,5 @@
 # 0x0A-unity-360_video_tour
- Introduction to 360 video using the xr plugin sdk
-  An introduction to XR user interaction. A guided tour of the old Holberton campus in San Francisco.
+ Introduction to 360 video using the xr plugin sdk. A guided tour of the old Holberton campus in San Francisco.
  
  ## How to install for Oculus
  - Download the apk from [here](https://drive.google.com/file/d/1pu4s7Mz5IJaDnjFYn4-646fqUYpP1Diw/view?usp=sharing)
