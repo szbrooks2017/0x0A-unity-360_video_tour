@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Buttons : MonoBehaviour
@@ -14,7 +12,6 @@ public class Buttons : MonoBehaviour
         {
             Info.SetActive(false);
             ActiveInfo = false;
-            // GetComponent<Animator>().enabled = false;
         }
         else
         {

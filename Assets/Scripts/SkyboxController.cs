@@ -10,12 +10,8 @@ public class SkyboxController : MonoBehaviour
     public GameObject LivingRoomObject, CatinaObject, MezzanineObject, CubeObject;
     public VideoClip LivingRoomVid, CatinaVid, MezzanineVid, CubeVid;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     // living room
+    ///<summary>StartLivingRoom initializes the living room video </summary>
     public void StartLivingRoom()
     {
         StartCoroutine(LivingRoom());
@@ -38,6 +34,7 @@ public class SkyboxController : MonoBehaviour
     }
 
     // catina
+    ///<summary>StartCatina initializes the catina video </summary>
     public void StartCatina()
     {
         StartCoroutine(Catina());
@@ -46,8 +43,6 @@ public class SkyboxController : MonoBehaviour
     IEnumerator Catina()
     {
         yield return new WaitForSeconds(0.2f);
-        // set new skybox
-        // RenderSettings.skybox = CatinaMat;
         // set object controlling video player
         MezzanineObject.SetActive(false);
         CubeObject.SetActive(false);
@@ -59,6 +54,7 @@ public class SkyboxController : MonoBehaviour
     }
 
     // mezzanine
+    ///<summary>StartMezzanine goes to the mez video </summary>
     public void StartMezzanine()
     {
         StartCoroutine(Mezzanine());
@@ -81,6 +77,7 @@ public class SkyboxController : MonoBehaviour
     }
 
     // cube
+    ///<summary>StartCube goes to the cube video </summary>
     public void StartCube()
     {
         StartCoroutine(Cube());
