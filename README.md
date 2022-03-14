@@ -1,4 +1,5 @@
 # 0x0A-unity-360_video_tour
+![alt text](https://raw.githubusercontent.com/szbrooks2017/0x0A-unity-360_video_tour/main/Assets/Images/room_snapshot.jpg)
  Introduction to 360 video using the xr plugin sdk. A guided tour of the old Holberton campus in San Francisco.
  
  ## How to install for Oculus
